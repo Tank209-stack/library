@@ -38,7 +38,7 @@ function displayBooks(){
     let bookCard = document.createElement('div');
     bookCard.classList.add("bookcard")
         bookCard.innerHTML = `
-        <div class="img"><img src = "${book.image}" alt ="Image not available"</div>
+        <div class="img"><img src = "${book.image}" alt ="Image not available"></div>
         <div class="content">
         <h2>${book.title}</h2>
         <h3>${book.author}</h3>
