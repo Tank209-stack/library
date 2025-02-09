@@ -7,6 +7,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h1>Tanweer's Library</h1>
+        <button class="add">Add Books</button>
+    </header>
+    <dialog>
+        <form action="#">
+            <label for="imageurl">Image-Url</label>
+            <input type="text" name="imageurl" id="imageurl" placeholder="Url">
+            <label for="title">Title</label>
+            <input type="text" name="title" id="title" placeholder="Title"  minlength="3">
+            <label for="author">Author</label>
+            <input type="text" name="author" id="author" placeholder="author name" minlength="3">
+            <label for="pages">Pages</label>
+            <input type="number" name="pages" id="pages">
+            <label for="read">Read</label>
+            <input type="checkbox" name="read" id="read">
+            <input type="submit" value="submit" placeholder="submit" class="submit">
+        </form>
+    </dialog>
+    <div class="container"></div>
+  <footer>Made with ❤️ by Tanweer</footer>
 </body>
 <script src="script.js"></script>
 </html>
